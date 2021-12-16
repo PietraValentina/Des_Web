@@ -1,0 +1,1 @@
+alert("Mensagem de alerta no script externo");

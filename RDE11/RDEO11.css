@@ -1,0 +1,74 @@
+
+span{
+    font-weight: bolder;
+}
+h1#principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(163, 79, 10);
+
+    background-color:lightsalmon;
+    border:2px solid darksalmon;
+}
+div.agrupamento{
+    background-color: rgba(245, 198, 179, 0.692);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: 2px solid rgb(224, 146, 93);
+    padding: 10px;
+    margin: 10px;
+}
+div.personalizado{
+    background-color:rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: 3px dotted rgb(131, 11, 61);
+    margin: 10px;
+    padding: 10px;
+}
+div.ex01{
+    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px outset coral ;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+}
+div.ex02{
+    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px inset coral ;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+    position: ;
+}
+.personalizado:hover{
+    color:firebrick;
+    background-color: indianred;
+    Border: 4px solid red;
+    margin: 20px;
+    padding:20px;
+}
+.hover:hover{
+    background-color: lavender;
+    color: rgb(61, 116, 7);
+}
+.active:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 205, 195);
+}
+a:visited{
+    background-color: rgb(248, 244, 6);
+    color: rgb(78, 117, 1);
+}
+.personalizado>span{
+    display: none;
+}
+.personalizado:hover>span{
+    display: block;
+    background-color: rgb(142, 35, 35);
+    color: white;
+}
