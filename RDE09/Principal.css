@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9A3A7;
+    /*background-image: linear-gradient(to right, rgb(20, 10, 16), rgba(0, 0, 0, 0.979));*/
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(imagem/prog..jpeg);
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+}
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#000000;
+    margin-top: 15px;
+    Border:4px rgba(175, 10, 139, 0.507);
+    border-style: groove;
+    margin-top: 30px;
+
+}
+.logo img{
+    width:30% ;
+    padding-top: 38px;
+    padding-left: 70px;
+    
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float:right;
+    display: block;
+    color: rgb(247, 244, 245);
+    text-decoration:none;
+    text-align: right;
+    padding: 10px 10px;
+    padding-right: 70px;
+}
+.navegacao a:hover{
+    color: darkgreen;
+}
+
+.box1{
+    float: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+    padding-top: 7px;
+    border: outset rgba(175, 10, 139, 0.671) ;
+    background-color: black;
+    height: 30px;
+    
+}
+.box2{
+    float: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    padding-top: 8px;
+    border: outset rgba(175, 10, 139, 0.692);
+    background-color: black;
+    height: 30px;
+
+}
+.box3{
+    float: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    padding-top: 7px;
+    border: outset rgba(175, 10, 139, 0.671);
+    background-color: black;
+    height: 30px;
+
+}
+main{
+    color: rgb(247, 244, 245);
+    text-decoration:none;
+
+}
+main a:hover{
+    color: rgb(255, 220, 249);
+}
+main a:visited{
+    color: rgb(255, 255, 255);
+}
+main a:active{
+    color: rgb(255, 5, 192);
+}
+main a{
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box_principal{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+    background-color: rgb(233, 232, 233);
+    padding: 20px 20px;
+    margin-top: 35px;
+}
+.box_principal a:hover{
+    color:rgb(255, 5, 192)
+}
+.box_principal a:visited{
+    color:rgb(5, 113, 255)
+}
+.box_principal a:active{
+    color:rgb(255, 5, 192)
+}
+.box_principal a{
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
